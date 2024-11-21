@@ -6,4 +6,5 @@ Técnologias utilizadas:
 - Golang;
 - Gin (framework do Golang);
 - Docker;
+- PostgreSQL 
 - Dbeaver;
