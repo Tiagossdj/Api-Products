@@ -33,6 +33,14 @@ func main() {
 
 	server.GET("/products", productController.GetProducts)
 	server.POST("/product", productController.CreateProducts)
+	server.GET("/product/:productId", productController.GetProductById)
+
+	/* proximas construções:
+	- UPDATE
+	- DELETE
+	- autenticação jwt
+	*/
 
 	server.Run(":8000")
+
 }
